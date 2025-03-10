@@ -7,8 +7,8 @@ from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
 
-from app import models, schemas
-from app.database import get_db
+from . import models, schemas
+from .database import get_db
 
 # to get a string like this run:
 # openssl rand -hex 32

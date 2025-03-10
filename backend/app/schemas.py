@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from typing import List, Optional
 from decimal import Decimal
-from zoneinfo import ZoneInfo
+# from zoneinfo import ZoneInfo
 from pydantic import BaseModel, field_validator, Field
 
 

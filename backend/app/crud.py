@@ -1,14 +1,12 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Optional
 from sqlalchemy import func
 from sqlalchemy.orm import Session
 from fastapi import HTTPException, status
-from zoneinfo import ZoneInfo
-from app import models, schemas
-from app.auth import get_password_hash
+from . import models, schemas
+from .auth import get_password_hash
 
 
-# User operations
 def create_user(db: Session, user: schemas.UserCreate):
     hashed_password = get_password_hash(user.password)
     db_user = models.User(
@@ -23,7 +21,6 @@ def create_user(db: Session, user: schemas.UserCreate):
     return db_user
 
 
-# Auto Plate operations
 def get_plates(db: Session, skip: int = 0, limit: int = 100,
                ordering: Optional[str] = None,
                plate_number_contains: Optional[str] = None):
@@ -32,7 +29,6 @@ def get_plates(db: Session, skip: int = 0, limit: int = 100,
     if plate_number_contains:
         query = query.filter(models.AutoPlate.plate_number.contains(plate_number_contains))
 
-    # Add ordering
     if ordering == "deadline":
         query = query.order_by(models.AutoPlate.deadline)
     elif ordering == "-deadline":
@@ -46,7 +42,7 @@ def get_plate(db: Session, plate_id: int):
 
 
 def create_plate(db: Session, plate: schemas.AutoPlateCreate, user_id: int):
-    # Check if plate number already exists
+
     existing_plate = db.query(models.AutoPlate).filter(
         models.AutoPlate.plate_number == plate.plate_number
     ).first()
@@ -199,7 +195,6 @@ def create_bid(db: Session, bid: schemas.BidCreate, user_id: int):
             detail="Bidding is closed"
         )
 
-    # Check if user already has a bid on this plate
     existing_bid = db.query(models.Bid).filter(
         models.Bid.user_id == user_id,
         models.Bid.plate_id == bid.plate_id
@@ -211,7 +206,6 @@ def create_bid(db: Session, bid: schemas.BidCreate, user_id: int):
             detail="You already have a bid on this plate"
         )
 
-    # Check if bid is higher than current highest bid
     highest_bid = db.query(func.max(models.Bid.amount)).filter(
         models.Bid.plate_id == bid.plate_id
     ).scalar()
@@ -232,7 +226,6 @@ def create_bid(db: Session, bid: schemas.BidCreate, user_id: int):
     db.refresh(db_bid)
     return db_bid
 
-from zoneinfo import ZoneInfo
 def update_bid(db: Session, bid_id: int, bid: schemas.BidUpdate, user_id: int):
     db_bid = get_bid(db, bid_id)
 
