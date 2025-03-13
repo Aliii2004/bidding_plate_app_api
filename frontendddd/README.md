@@ -1,8 +1,9 @@
+
 # Welcome to your Lovable project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/c9d0c060-3f8b-4277-ac79-55cb649d0467
+**URL**: https://lovable.dev/projects/f08cabb7-a45a-4481-b098-6512a47ca94c
 
 ## How can I edit this code?
 
@@ -10,7 +11,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c9d0c060-3f8b-4277-ac79-55cb649d0467) and start prompting.
+Simply visit the [Lovable Project](https://lovable.dev/projects/f08cabb7-a45a-4481-b098-6512a47ca94c) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -33,7 +34,7 @@ cd <YOUR_PROJECT_NAME>
 npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+npm run start
 ```
 
 **Edit a file directly in GitHub**
@@ -52,7 +53,7 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with .
+This project is built with:
 
 - Vite
 - TypeScript
@@ -60,9 +61,23 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
+## How to run the project
+
+To start the development server:
+
+```sh
+npm run start
+```
+
+To build the project for production:
+
+```sh
+npm run build
+```
+
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/c9d0c060-3f8b-4277-ac79-55cb649d0467) and click on Share -> Publish.
+Simply open [Lovable](https://lovable.dev/projects/f08cabb7-a45a-4481-b098-6512a47ca94c) and click on Share -> Publish.
 
 ## I want to use a custom domain - is that possible?
 

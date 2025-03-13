@@ -295,5 +295,3 @@ def delete_bid(db: Session, bid_id: int, user_id: int):
     db.delete(db_bid)
     db.commit()
     return {"detail": "Bid deleted successfully"}
-
-

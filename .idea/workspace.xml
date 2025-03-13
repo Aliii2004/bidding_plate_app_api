@@ -5,95 +5,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="feb0af3a-6c46-40ba-868d-6f953af8f95b" name="Changes" comment="V2 is done">
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/bun.lockb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/og-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/placeholder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/accordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/alert-dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/alert.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/aspect-ratio.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/avatar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/badge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/breadcrumb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/calendar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/chart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/checkbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/collapsible.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/command.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/context-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/drawer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/hover-card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/input-otp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/label.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/menubar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/navigation-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/pagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/popover.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/progress.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/radio-group.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/resizable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/scroll-area.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/separator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/sheet.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/sonner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/switch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/tabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/textarea.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/toast.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/toaster.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/toggle-group.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/toggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/use-toast.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/use-mobile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/use-toast.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/NotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/auth_ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/crud_ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/websocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/BidsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/CreatePlateForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/EditPlateForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/PlaceBidForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/PlateCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/ProtectedRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/UserBidsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/bids/BidRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/bids/BidsTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/bids/DeleteBidDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/bids/EditBidForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/components/bids/EmptyBidsState.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/contexts/AuthContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/hooks/use-bids.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/hooks/use-plates.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/lib/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/lib/websocket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/AdminDashboardPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/Index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/NotFoundPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/PlateDetailPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/RegisterPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/pages/UserBidsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontendddd/src/types/models.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/routers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routers/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/routers/bids.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routers/bids.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/routers/plates.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routers/plates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/routers/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routers/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/og-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/public/og-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/placeholder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/public/placeholder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/alert-dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/alert-dialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/alert.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/alert.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/aspect-ratio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/aspect-ratio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/breadcrumb.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/breadcrumb.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/calendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/calendar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/collapsible.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/collapsible.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/command.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/command.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/context-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/context-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/dialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/drawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/drawer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/hover-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/hover-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/input-otp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/input-otp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/menubar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/menubar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/navigation-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/navigation-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/popover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/popover.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/progress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/progress.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/radio-group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/radio-group.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/resizable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/resizable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/scroll-area.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/scroll-area.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/separator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/separator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/sheet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/skeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/sonner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/sonner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/switch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/tabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/tabs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/textarea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/toast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/toast.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/toaster.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/toaster.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/toggle-group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/toggle-group.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/tooltip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/use-toast.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/components/ui/use-toast.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/use-mobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/hooks/use-mobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/use-toast.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/hooks/use-toast.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/pages/NotFound.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/src/vite-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/tsconfig.node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontendddd/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +133,9 @@
       <list>
         <option value="FastAPI main" />
         <option value="FastAPI test_main" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -134,28 +163,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "FastAPI.bidding_plate_app_api.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/all_python_projects/fastapi/bidding_plate_app_api/backend/app/main.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "D:\\all_python_projects\\fastapi\\bidding_plate_app_api\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;FastAPI.bidding_plate_app_api.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/all_python_projects/fastapi/bidding_plate_app_api/frontendddd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\all_python_projects\\fastapi\\bidding_plate_app_api\\frontendd\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all_python_projects\fastapi\bidding_plate_app_api\frontendddd" />
+      <recent name="D:\all_python_projects\fastapi\bidding_plate_app_api\frontenddd" />
+      <recent name="D:\all_python_projects\fastapi\bidding_plate_app_api\frontendd" />
       <recent name="D:\all_python_projects\fastapi\bidding_plate_app_api\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -207,7 +239,17 @@
       <workItem from="1741609213292" duration="7603000" />
       <workItem from="1741623989083" duration="726000" />
       <workItem from="1741625876552" duration="3432000" />
-      <workItem from="1741629379738" duration="3147000" />
+      <workItem from="1741629379738" duration="6604000" />
+      <workItem from="1741665511712" duration="1583000" />
+      <workItem from="1741668797721" duration="30000" />
+      <workItem from="1741681798404" duration="6006000" />
+      <workItem from="1741699497836" duration="3986000" />
+      <workItem from="1741742223856" duration="3320000" />
+      <workItem from="1741745656236" duration="465000" />
+      <workItem from="1741746150805" duration="324000" />
+      <workItem from="1741746496937" duration="348000" />
+      <workItem from="1741751730222" duration="2037000" />
+      <workItem from="1741855491135" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="V1 is done">
       <option name="closed" value="true" />
@@ -225,11 +267,30 @@
       <option name="project" value="LOCAL" />
       <updated>1741626191688</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V2 is done">
+      <option name="closed" value="true" />
+      <created>1741632795838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741632795838</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1 is done" />

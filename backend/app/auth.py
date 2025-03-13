@@ -79,5 +79,3 @@ async def get_current_staff_user(current_user: models.User = Depends(get_current
             detail="You don't have permission to perform this action",
         )
     return current_user
-
-

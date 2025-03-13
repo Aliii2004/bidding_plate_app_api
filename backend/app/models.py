@@ -51,5 +51,3 @@ class Bid(Base):
     __table_args__ = (
         UniqueConstraint('user_id', 'plate_id', name='unique_user_plate_bid'),
     )
-
-
